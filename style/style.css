@@ -1,0 +1,66 @@
+*{
+    font-family: var(--font-main);
+}
+:root{
+    --green-color: #70c45d;
+    --font-main: "Poppins", serif;
+    --bg-green:#F0F7F1;
+}
+span{
+    color: var(--green-color);
+}
+li{
+
+    #home{
+        color: var(--green-color);
+    }
+    a:hover{
+        color: var(--green-color) !important;
+    }
+}
+#btn1{
+    background-color: var(--green-color);
+    font-size: 12px;
+}
+#btn2{
+    color: var(--green-color);
+}
+#bg1{
+    background-color: var(--bg-green) !important;
+}
+.myCard{
+    transition: all 200ms ease-in-out;
+    svg{
+        color: var(--green-color);
+    }
+}
+.myCard:hover{
+    color: var(--bg-green);
+    svg{
+        color: var(--bg-green);
+    }
+    background-color: var(--green-color) !important;
+}
+#bg2{
+    ul{
+        li{
+            list-style-image: url(../assets/icons/check-circle.svg);
+        }
+    }
+    .myBtn3{
+        background-color: var(--green-color);
+    }
+}
+#bg3{
+    .myBtn4{
+        background-color: var(--bg-green);
+        color: var(--green-color);
+    }
+    svg{
+        background-color: var(--green-color);
+    }
+    .myCard1{
+        background-color: #ffffff;
+        border-radius: 20px !important;
+    }
+}
